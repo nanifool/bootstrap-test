@@ -1,0 +1,42 @@
+
+body {
+  background: rgb(1,157,18);
+  background: linear-gradient(180deg, rgba(1,157,18,1) 0%, rgba(255,255,255,1) 18%);
+}
+
+body > .container div, 
+.card-body {
+  background-color: rgb(230, 233, 235);
+}
+
+.container > .card {
+  -webkit-box-shadow: 2px 2px 3px 0px #383838; 
+  box-shadow: 2px 2px 3px 0px #383838;
+}
+
+
+.banner{
+  height: 250px;
+  background-image: url("../assets/image/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body > .container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+h1 {
+  text-shadow: 1px 1px 3px #000000;
+}
+
+.teste {
+  width: 33.333%
+}
+
+.teste.float-left {
+  margin-right: 15px;
+}
